@@ -3,7 +3,11 @@
 ---
 
 @import "variables";
+@import "mixins";
+
 @import "bootstrap/bootstrap";
-@import "base";
-@import "posts";
-@import "page";
+
+@import "global";
+@import "navbar";
+@import "masthead";
+@import "portfolio";
