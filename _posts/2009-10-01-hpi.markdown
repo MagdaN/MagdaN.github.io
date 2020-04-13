@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Study of IT-Systems Engineering at Hasso-Plattner-Institut"
+time: "Oct. 2009 to Feb. 2013"
+date: 2009-10-01 16:15:00 +0100
+categories: [work]
+---

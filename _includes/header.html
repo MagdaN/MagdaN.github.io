@@ -6,7 +6,7 @@
       <h1 class="site-title"><a rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a></h1>
     </div>
     {%- if titles_size > 0 -%}
-    <ul class="nav justify-content-end border-bottom border-top">
+    <ul class="nav justify-content-end">
       {%- for path in page_paths -%}
       {%- assign my_page = site.pages | where: "path", path | first -%}
       {%- if my_page.title -%}

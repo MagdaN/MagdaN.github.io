@@ -1,29 +1,55 @@
 ---
 layout: default
 ---
+<div class="intro">
+  <div class="row">
+    <div class="offset-3 col-7">
+      <h1>Hi. I am Magdalena Noffke.</h1>
+      <h1>I am a software developer.</h1>
+    </div>
+  </div>
+</div>
+
 
 <div>
   {%- if site.posts.size > 0 -%}
-      <div class="posts">
-      {%- for post in site.posts -%}
-        <div class="row post">
-          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-          <div class="col-3 border-right text-right post__meta">
-            <div>{{ post.date | date: date_format }}</div>
-            {% for category in post.categories %}
-            <div>{{ category }}</div>
-            {% endfor %}
-          </div>
-          <div class="col-7 post__content">
-            <h2 class="post__title">
-              <a class="post-link" href="{{ post.url | relative_url }}">
-                {{ post.title | escape }}
-              </a>
-            </h2>
-            <p>{{ post.content }}</p>
-           </div>
+    <div class="posts">
+      <div class="row">
+      <div class="offset-3 col-6">
+        <div class="row justify-content-center">
+          <div class="pb-3">This is what I do</div>
         </div>
-      {%- endfor -%}
+        <div class="post__spacer"></div>
+      </div>
     </div>
+    {%- for post in site.posts -%}
+      {%- if post.categories contains 'work' -%}
+      <div class="row post">
+        <div class="offset-3 col-6">
+          <div class="row justify-content-center pt-3">
+            <div>{{ post.time }}</div>
+          </div>
+          <div class="row justify-content-center">
+            <h3 class="post__title">{{ post.title }}</h3>
+          </div>
+          <div class="post__content">{{ post.content }}</div>
+          <div class="post__spacer"></div>
+        </div>
+      </div>
+      {%- endif -%}
+    {%- endfor -%}
+      <div class="row pt-4">
+        <div class="offset-3 col-6">
+          <div class="row justify-content-center">
+            <a href="https://github.com/MagdaN" class="btn border-dark rounded-0">Find me on Github</a>
+          </div>
+          <div class="row justify-content-center">
+            <a href="https://twitter.com/MagdalenaNoffke" class="btn border-dark rounded-0 mt-1">Find me on Twitter</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
   {%- endif -%}
 </div>

@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Research Assistant and Software Developer at FU Berlin"
+time: "Oct. 2012 to Dec. 2014"
+date: 2012-10-01 16:15:00 +0100
+categories: [work]
+---

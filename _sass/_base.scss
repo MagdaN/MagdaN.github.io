@@ -1,19 +1,12 @@
-.body-background {
-	background-image: url('gasometer4.jpg');
-	background-position: top center;
-	background-size: cover;
-	background-repeat: no-repeat;
-
-	.container {
-		background-color: rgba(256, 256, 256, 0.95);
-		margin-top: 5rem;
-	}
+h1, h2 {
+	font-family: 'Anonymous Pro', monospace;
 }
 
 .site-title {
 	text-transform: uppercase;
 	padding-top: 2rem;
 	font-size: $h2-font-size;
+	font-family: $font-family-sans-serif;
 
 	a:hover {
 		text-decoration: none;

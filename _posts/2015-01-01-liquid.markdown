@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Software Developer at Liquid Democracy e.V."
+time: "Jan. 2015 to Feb. 2020"
+date:   2020-01-06 16:15:00 +0100
+categories: [work]
+---
+Liquid Democracy describes itself as an innovator in the field of participatory democracy. The core of our their work revolves around the development of Adhocracy, a free and open-source software and digital participation tool providing users with various civic participation tools. Find more information about them on their [website] or their [Github Organisation]
+
+[website]: https://liqd.net
+[Github Organisation]: https://github.com/liqd

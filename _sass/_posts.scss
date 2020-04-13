@@ -1,37 +1,16 @@
 .posts {
-	margin-top: 3rem;
 	margin-bottom: 5rem;
 	padding-bottom: 5rem;
 }
 
-.post {
-	margin-bottom: 2rem;
-}
-
-.post_section {
-	padding-top: 3rem;
-	padding-bottom: 2rem;
-	color: $text-muted;
-}
-
-.post__meta {
-	@extend .post_section;
-
-	text-transform: uppercase;
-}
-
 .post__content {
-	@extend .post_section;
-
-	p {
-		font-family: helvetica, 'Open Sans', sans-serif;
-		font-size: $code-font-size;
-	}
+	padding-top: $spacer;
+	text-align: center;
 }
 
 .post__title {
-	text-transform: uppercase;
-	font-weight: bold;
+	font-family: 'Anonymous Pro', monospace;
+	text-align: center;
 
 	a {
 		color: $secondary;
@@ -40,4 +19,10 @@
 	a:hover {
 		text-decoration: none;
 	}
+}
+
+.post__spacer {
+	width: 50%;
+	height: 4*$spacer;
+	border-right: 1px solid $black;
 }
