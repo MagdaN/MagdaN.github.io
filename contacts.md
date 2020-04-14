@@ -5,9 +5,9 @@ permalink: /contacts/
 ---
 
 ### Address
-Magdalena Noffke
-Cheruskerstr. 3
-10829 Berlin
+Magdalena Noffke  
+Cheruskerstr. 3  
+10829 Berlin  
 Germany
 
 ### Telephone
