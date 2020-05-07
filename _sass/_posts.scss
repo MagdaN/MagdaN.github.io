@@ -3,10 +3,58 @@
 	padding-bottom: 5rem;
 }
 
+.post__link,
+.post__link:hover {
+	color: $black;
+}
+
 .post__content {
 	padding-top: $spacer;
 	text-align: center;
+
+	.language-python {
+		border: 1px solid $gray-200;
+		margin-bottom: $spacer;
+
+		> .highlight {
+			padding: $spacer;
+		}
+
+		pre {
+			margin-bottom: 0;
+		}
+
+		code {
+			font-family: 'Anonymous Pro', monospace;
+		}
+	}
+
+	img {
+		width: 100%;
+		border: 1px solid $gray-200;
+	}
+
+	h3 {
+		font-family: 'Anonymous Pro', monospace;
+		font-size: $h2-font-size;
+		margin: 3*$spacer;
+		text-align: center;
+	}
+
+
+	@include media-breakpoint-up(lg) {
+  		.p--no-img,
+		.language-python,
+		h2,
+		h3 {
+			margin-left: 20%;
+			margin-right: 20%;
+		}
+  	}
 }
+
+
+
 
 .post__title {
 	font-family: 'Anonymous Pro', monospace;
