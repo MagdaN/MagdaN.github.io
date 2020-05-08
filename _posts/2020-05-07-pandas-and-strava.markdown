@@ -112,6 +112,20 @@ plt.show()
 
 ![dataframe head](/assets/img/speed.png)
 
+It looks a bit as if the plot is divided into two parts, one until December 2018, then a big gap and then a second part from August 2019 and me being faster. The problem is that the plot does not show the big gap. So I need to tell matplotlib that data for the x-axis are dates. So this is what I did:
+{: class="p--no-img"}
+```python
+df = pd.DataFrame(data, columns=cols)
+df.set_index('start_date_local', inplace=True)
+df.index = pd.to_datetime(df.index)
+
+runs = df[df['type'] == 'Run']
+```
+Now I can redo the plot (I decided for a dashed line here, because I wanted to display the order of the datapoints but don't suggest that there are more datapoints on the connecting line)
+{: class="p--no-img"}
+
+![dataframe head](/assets/img/speed3.png)
+
 
 
 [beginner guide from Strava]: https://developers.strava.com/docs/getting-started/

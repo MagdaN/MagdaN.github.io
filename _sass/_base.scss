@@ -2,6 +2,10 @@ h1, h2 {
 	font-family: 'Anonymous Pro', monospace;
 }
 
+body {
+	margin-bottom: 5*$spacer;
+}
+
 .site-title {
 	text-transform: uppercase;
 	padding-top: 2rem;
