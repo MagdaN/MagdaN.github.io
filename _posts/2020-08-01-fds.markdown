@@ -5,6 +5,6 @@ time: "Aug. 2020 until now"
 date:   2020-08-01 16:54:00 +0100
 categories: [work]
 ---
-[FragDenStaat] is an non-profit open-source Freedom of Information platform for Germany. Anyone can use the platform to request documents from authorities. It helps with formulating, documenting and supports communication with authorities.
+[FragDenStaat] is a non-profit open-source Freedom of Information platform for Germany. Anyone can use the platform to request documents from authorities. It helps with formulating, documenting and supports communication with authorities.
 
 [FragDenStaat]:https://fragdenstaat.de/
