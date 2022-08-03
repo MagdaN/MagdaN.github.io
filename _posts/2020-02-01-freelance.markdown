@@ -7,7 +7,7 @@ categories: [work]
 ---
 I advise and support organisations and companies in the civich tech area but also other areas of information technology and software development. I am also an organizer and coach of the [Django Girls Berlin]. My favourite technologies include [Python], [Django] and [React].
 
-From March 2021 to August 2021 I was working on my Project [Open Legal Tech] which was funded by the [Prototype Fund].
+From March 2021 to August 2021 I was working on my project [Open Legal Tech] which was funded by the [Prototype Fund].
 
 
 
