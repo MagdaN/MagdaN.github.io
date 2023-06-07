@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Software Developer at FragDenStaat"
-time: "Aug. 2020 until now"
+time: "Aug. 2020 to Dec 2022"
 date:   2020-08-01 16:54:00 +0100
 categories: [work]
 ---
