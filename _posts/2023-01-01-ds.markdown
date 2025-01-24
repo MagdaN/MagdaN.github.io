@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Software Developer at DigitalService"
+time: "Jan. 2023 to now"
+date:   2023-01-05 16:54:00 +0100
+categories: [work]
+---
+The [DigitalService] is the central digitization unit of the federal government. We create federal digital applications that work better for everyone.
+[DigitalService]:https://digitalservice.bund.de/en
