@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Freelance IT-Consultant and Software Developer"
-time: "Feb. 2020 until now"
+time: "Feb. 2020 to Dec 2022"
 date:   2020-01-06 16:54:00 +0100
 categories: [work]
 ---
